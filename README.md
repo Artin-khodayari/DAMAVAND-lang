@@ -1,4 +1,4 @@
-# 🌄 DAMAVAND Language
+# 🌄 DAMAVAND-lang
 
 **DAMAVAND** is a programming language written in **Python** — created for fun, learning, and experimenting with interpreters.  
 It supports variables, loops, conditionals, printing, and basic error handling.
