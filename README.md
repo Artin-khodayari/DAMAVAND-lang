@@ -20,7 +20,7 @@ It supports variables, loops, conditionals, printing, and basic error handling.
 
 Clone the repo:
 ```bash
-git clone https://github.com/your-username/DAMAVAND-lang.git
+git clone https://github.com/Artin-khodayari/DAMAVAND-lang.git
 cd DAMAVAND-lang
 ```
 
