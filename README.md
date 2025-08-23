@@ -132,7 +132,7 @@ Greater than 12
 
 This project is made by [Artin Khodayari](https://github.com/Artin-khodayari).  
 
-📧 Contact: [ArtinKhodayari2010@gmail.com](mailto:ArtinKhodayari2010@gmail.com)  
+📧 Contact: [Gmail-Account](mailto:ArtinKhodayari2010@gmail.com)  
 
 ***Feel free to reach out for questions, feedback, or collaborations!***
 
