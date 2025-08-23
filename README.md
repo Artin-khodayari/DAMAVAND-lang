@@ -55,16 +55,16 @@ c = a + 5
 
 ### Printing
 ```damavand
-print("Hello World")
-print("Age: " + a)
+print "Hello World"
+print "Age: " + a
 ```
 
 ### If statement
 ```damavand
 if (x > 3) {
-    print("x is big")
+    print "x is big"
 } else {
-    print("x is small")
+    print "x is small"
 }
 ```
 
@@ -72,7 +72,7 @@ if (x > 3) {
 ```damavand
 n = 3
 while (n > 0) {
-    print(n)
+    print n
     n = n - 1
 }
 ```
@@ -86,14 +86,14 @@ while (n > 0) {
 
 ```damavand
 fff hello(name) {
-    print("Hello, " + name)
+    print "Hello, " + name
 }
 ```
 
 ### Comments
 ```damavand
 # This is a comment
-print("Hello")
+print "Hello"
 ```
 
 ---
@@ -106,13 +106,13 @@ fff main() {
     b = 10
 
     if (a + b > 12) {
-        print("Greater than 12")
+        print "Greater than 12"
     } else {
-        print("Not greater")
+        print "Not greater"
     }
 
     while (a > 0) {
-        print(a)
+        print a
         a = a - 1
     }
 }
