@@ -1,18 +1,26 @@
 # 🌄 DAMAVAND-lang
 
 **DAMAVAND** is a programming language written in **Python** — created for fun, learning, and experimenting with interpreters.  
-It supports variables, loops, conditionals, printing, and basic error handling.
+Now it also comes with its own **IDE** with syntax highlighting, file management, and a dark theme!  
 
 ---
 
 ## ✨ Features
 
-- Variables (`var`)
+- Variables (`a = 10`)
 - Printing (`print`)
-- Conditionals (`if`)
-- Loops (`while`, `for`)
-- Simple error handling
+- Conditionals (`if / else`)
+- Loops (`while`)
+- Functions (`fff name(args)`)
+- Comments (`//`)
+- Basic error handling
 - Run code from `.dam` files
+- IDE with:
+  - Syntax highlighting (keywords, numbers, strings, comments, operators)
+  - Italic green comments
+  - File menu (New, Open, Save, Save As)
+  - Edit menu (Undo, Redo, Copy, Paste)
+  - Dark theme
 
 ---
 
@@ -24,9 +32,14 @@ git clone https://github.com/Artin-khodayari/DAMAVAND-lang.git
 cd DAMAVAND-lang
 ```
 
-### Run with Python (3.8+):
-```python
-python3 main.py examples/hello.dam
+### Run the interpreter:
+```bash
+python3 src/main.py examples/hello.dam
+```
+
+### Run the IDE:
+```bash
+python3 ide.py
 ```
 
 ---
@@ -34,79 +47,96 @@ python3 main.py examples/hello.dam
 ## 📝 Syntax
 
 ### Variables
-```
-var x = 10
-var name = "DAMAVAND"
-x = x + 5
+```damavand
+a = 10
+b = "DAMAVAND"
+c = a + 5
 ```
 
 ### Printing
-```
-print x
-print "Hello World"
-print "Age: " + x
+```damavand
+print("Hello World")
+print("Age: " + a)
 ```
 
-### if statement
-```
-if x > 3 {
-    print "x is big"
+### If statement
+```damavand
+if (x > 3) {
+    print("x is big")
+} else {
+    print("x is small")
 }
 ```
 
 ### While loop
-```
-var n = 3
-while n > 0 {
-    print n
+```damavand
+n = 3
+while (n > 0) {
+    print(n)
     n = n - 1
 }
 ```
 
-### For loop
-```
-for i = 0; i < 5; i = i + 1 {
-    print i
+### Functions
+```damavand
+fff hello(name) {
+    print("Hello, " + name)
 }
 ```
 
 ### Comments
-```
-# This is a comment
-print "Hello"
-```
-
-## Example
-```
-var name = "World"
-print "Hello " + name
-
-for i = 0; i < 3; i = i + 1 {
-    print i
-}
-```
-
-### The output should be :
-```
-Hello World
-0
-1
-2
+```damavand
+// This is a comment
+print("Hello")
 ```
 
 ---
 
-**It's basic and only a TOY programming language now, but it will grow up!**
+## Example Program
+```damavand
+// DAMAVAND sample program
+fff main() {
+    a = 5
+    b = 10
+
+    if (a + b > 12) {
+        print("Greater than 12")
+    } else {
+        print("Not greater")
+    }
+
+    while (a > 0) {
+        print(a)
+        a = a - 1
+    }
+}
+```
+
+### Example Output:
+```
+Greater than 12
+5
+4
+3
+2
+1
+```
+
+---
+
+**DAMAVAND started as a hobby, but it would be something more than a hobby.** 🚀  
 
 ---
 
 # 🧑‍💻 About the Developer
 
-This project is made by [Artin khodayari](https://github.com/Artin-khodayari).
+This project is made by [Artin Khodayari](https://github.com/Artin-khodayari).  
 
-You can contact me and report the problems and bugs to my [Gmail-Account](mailto:ArtinKhodayari2010@gmail.com)
+📧 Contact: [ArtinKhodayari2010@gmail.com](mailto:ArtinKhodayari2010@gmail.com)  
 
 ***Feel free to reach out for questions, feedback, or collaborations!***
+
+---
 
 # 📄 License
 **Also read [License](https://github.com/Artin-khodayari/DAMAVAND-lang/blob/main/License)**
