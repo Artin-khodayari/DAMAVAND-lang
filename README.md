@@ -12,7 +12,7 @@ Now it also comes with its own **IDE** with syntax highlighting, file management
 - Conditionals (`if / else`)
 - Loops (`while`)
 - Functions (`fff name(args)`)
-- Comments (`//`)
+- Comments (`#`)
 - Basic error handling
 - Run code from `.dam` files
 - IDE with:
