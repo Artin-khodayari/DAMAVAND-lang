@@ -78,8 +78,8 @@ while (n > 0) {
 ```
 
 ### Functions
-**Note:To define a function, you have to use ``fff``**
-**Why? This is a fun project, so ``fff`` means:**
+**Note:To define a function, you have to use ``fff``\n**
+**Why? This is a fun project, so ``fff`` means:\n**
 ---> ***Function For Fun*** ;)
 ```damavand
 fff hello(name) {
