@@ -79,9 +79,8 @@ while (n > 0) {
 
 ### Functions
 
-Note:To define a function, you have to use ``fff``
-
-Why? This is a fun project, so ``fff`` means:
+**Note:** To define a function, you have to use ``fff``
+**Why**? This is a fun project, so ``fff`` means:
 
 ---> ***Function For Fun*** ;)
 
