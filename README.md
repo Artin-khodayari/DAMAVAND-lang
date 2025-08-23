@@ -78,10 +78,9 @@ while (n > 0) {
 ```
 
 ### Functions
-**Note:**
-**    To define a function, you have to use ```fff```**
-**    Why? This is a fun project, so ``fff`` means:**
-          ***Function For Fun*** ;)
+**Note:To define a function, you have to use ``fff``**
+**Why? This is a fun project, so ``fff`` means:**
+---> ***Function For Fun*** ;)
 ```damavand
 fff hello(name) {
     print("Hello, " + name)
